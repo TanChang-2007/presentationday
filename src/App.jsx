@@ -27,7 +27,7 @@ function Ecommerce(){
   )
 }
 
-function App() {
+function App() { 
   return (
     <div className="">
       <BrowserRouter>
