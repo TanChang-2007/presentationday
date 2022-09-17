@@ -14,7 +14,7 @@ function Home() {
         <a href='https://stopwatch.online-timers.com/online-stopwatch'><span className=' border-b-2 border-black border-dotted flex flex-row align-middle text-5xl absolute m-10 pt-28'>Stopwatch</span></a>
         <a href='https://www.timeanddate.com/worldclock/'><span className=' border-b-2 border-black border-dotted flex flex-row align-middle text-5xl absolute m-10 pt-48'>World Clock</span></a>
       </div>
-      <div className='flex flex-1 sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl items-center justify-center h-screen select-none font-[DM-Sans]'>
+      <div className='flex flex-1 sm:text-3xl md:text-5xl lg:text-\6xl xl:text-7xl 2xl:text-8xl items-center justify-center h-screen select-none font-[DM-Sans]'>
         {moment().format("LT")}
       </div>
     </div>
