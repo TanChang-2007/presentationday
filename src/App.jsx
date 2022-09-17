@@ -1,6 +1,6 @@
 import moment from 'moment';
 import {
-  BrowserRouter, Routes, Route,
+  BrowserRouter, Routes, Route, Link,
 } from 'react-router-dom';
 import { Icon } from '@iconify/react';
 import 'animate.css';
@@ -11,9 +11,9 @@ function Home() {
     <div className="flex bg-gradient-to-r from-[#F9E7FE] to-[#DAFCFC]">
       <div className='absolute text-sm sm:text-md md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl m-7 select-none'>{moment().format('DD MMMM YYYY')}</div>
       <div className='flex flex-col pt-10'>
-        <a href='https://www.timeanddate.com/timer/'><span className=' border-b-2 border-black border-dotted flex flex-row align-middle text-xl md:text-2xl lg:text-3xl absolute m-10 pt-10'>Timer</span></a>
-        <a href='https://stopwatch.online-timers.com/online-stopwatch'><span className=' border-b-2 border-black border-dotted flex flex-row align-middle text-xl md:text-2xl lg:text-3xl absolute m-10 pt-28'>Stopwatch</span></a>
-        <a href='https://www.timeanddate.com/worldclock/'><span className=' border-b-2 border-black border-dotted flex flex-row align-middle text-xl md:text-2xl lg:text-3xl absolute m-10 pt-48'>World Clock</span></a>
+        <a href='https://www.timeanddate.com/timer/' className='pt-20 text-xl md:text-2xl lg:text-3xl border-b-2 border-dotted border-black flex pl-10'>Timer</a>
+        <a href='https://www.online-stopwatch.com/' className=' pt-24 text-xl md:text-2xl lg:text-3xl border-b-2 border-dotted border-black flex pl-10'>Stopwatch</a>
+        <a href='https://cgr-omega.vercel.app/' className='pt-24 text-xl md:text-2xl lg:text-3xl border-b-2 border-dotted flex border-black pl-10'>World Clock</a>
       </div>
       <div className='flex flex-1 animate__animated animate__pulse sm:text-3xl md:text-5xl lg:text-\6xl xl:text-7xl 2xl:text-8xl items-center justify-center h-screen select-none'>
         {moment().format("LT")}
