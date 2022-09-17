@@ -23,7 +23,7 @@ function Home() {
 
 function Ecommerce(){
   return(
-    <div></div>
+    <div>HI</div>
   )
 }
 
